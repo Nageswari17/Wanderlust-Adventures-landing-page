@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://unsplash.com/photos/yC-Yzbqy7PY/download?force=true&w=1920') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+header.jumbotron {
+    background: url('https://unsplash.com/photos/9gGvNWBeOq4/download?force=true&w=1920') no-repeat center center;
+    background-size: cover;
+    color: rgb(10, 15, 9);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header .btn-primary {
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+}
+
+section#destinations {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px 0;
+}
+
+section#destinations h2, section#destinations .card-title, section#destinations .card-text {
+    color: #fff;
+}
+
+section#destinations .card {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+section#destinations .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+section#tips {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
